@@ -1,4 +1,5 @@
 clint==0.5.1
 prettytable==0.7.2
-Pygments==2.3.1
+Pygments==2.7.4
 boto3==1.9.86
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
